@@ -49,14 +49,13 @@
 
 	<build>
 		<plugins>
-		
 			<plugin><!-- don't pack the war  -->		
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
 				<executions>
 					<execution>
 						<id>default-war</id>
-						<phase>none</phase>=
+						<phase>none</phase>
 					</execution>
 					<execution>
 						<id>war-exploded</id>
@@ -70,13 +69,13 @@
 						</goals>
 					</execution>
 	  			</executions>
-
 			</plugin>
 
 			<plugin>
 			<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			
 		</plugins>
 	</build>
 
