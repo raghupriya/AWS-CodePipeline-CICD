@@ -49,14 +49,10 @@
 
 	<build>
 		<plugins>
-<<<<<<< Updated upstream
-			<plugin><!-- don't pack the war  -->		
-=======
-				
-		<!-- 
+
+		<!-- 						  		
 			<plugin>
-			  		
->>>>>>> Stashed changes
+			
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
 				<executions>
@@ -77,12 +73,8 @@
 					</execution>
 	  			</executions>
 			</plugin>
-<<<<<<< Updated upstream
 
-=======
-              -->
-              
->>>>>>> Stashed changes
+-->
 			<plugin>
 			<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
