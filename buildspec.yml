@@ -17,4 +17,4 @@ phases:
 artifacts:
   files:
     - ./aws-elasticbeanstalk-cicd-0.0.1-SNAPSHOT.war
-    - appspec.yml
+    
